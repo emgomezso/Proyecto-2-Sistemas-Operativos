@@ -6,4 +6,4 @@ Pasos
 
 1) Para correr este archivo se deberá correr el comando "docker build -t server_image ." en una consola que se encuentre en el directorio donde esté el archivo "dockerfile" para crear la imagen requerida.
 2) Para levantar el container en docker se deberá correr el comando "docker run -p 0.0.0.0:12345:12345 server_image" en la consola para configurar los parametros necesarios para correr el servidor web.
-3) Una vez creado el contenedor y que se encuentre corriendo, en el navegador se deberá enviar solicitudes htttp con el siguiente formato: http://localhost:12345/traductor?palabra=<palabra> o  bien http://localhost:12345/diccionario?palabra=<palabra>.
+3) Una vez creado el contenedor y que se encuentre corriendo, en el navegador se deberá enviar solicitudes htttp con el siguiente formato: http://localhost:12345/traductor?palabra=(palabra) o  bien http://localhost:12345/diccionario?palabra=(palabra).
