@@ -1,5 +1,6 @@
 # Proyecto-2-Sistemas-Operativos
-Este es un proyecto Python que utiliza un servidor con threads para gestionar solicitudes http y almacenarlas en un log
+Este es un proyecto Python que utiliza un servidor con threads para gestionar solicitudes http y almacenarlas en un log.
+
 El programa de fondo contiene un listado de palabras para consultar para una traducción o bien, su significado como si se tratase de un pequeño diccionario.
 
 Pasos
