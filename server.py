@@ -29,8 +29,6 @@ def diccionario(pathstr):
             answer = "Disco duro"
         elif searchstr == "ram":
             answer = "Memoria de acceso aleatorio"
-        elif searchstr == "windows":
-            answer = "Una mierda"
         else:
             answer = "' " + searchstr + "' no esta definida en el diccionario"          
         return answer
